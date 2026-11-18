@@ -29,10 +29,10 @@ export default function Hero() {
         {/* Who: photo and name together, like a profile */}
         <div className="mb-7 flex items-center gap-6">
           <img
-            src="/rita.webp"
+            src="/rita-240.webp"
             alt=""
-            width={640}
-            height={640}
+            width={240}
+            height={240}
             fetchPriority="high"
             className="aspect-square w-24 shrink-0 rounded-2xl border border-line object-cover md:w-30 md:rounded-[20px]"
           />
