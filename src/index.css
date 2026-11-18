@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/newsreader/wght.css';
+@import '@fontsource-variable/newsreader/wght-italic.css';
+@import '@fontsource-variable/hanken-grotesk';
+
+/* Design tokens: summer breeze, warm spring. Soft, warm, light. */
+@theme {
+  --color-paper: #faf6ef;
+  --color-sand: #f4ede2;
+  --color-card: #fffdf9;
+  --color-ink: #2a2420;
+  --color-muted: #5c534c;
+  --color-sage: #4e6a4a;
+  --color-sage-deep: #2f4630;
+  --color-sage-soft: #dce6d6;
+  --color-wing: #f2c9a0;
+  --color-line: #e7ded2;
+  --color-line-strong: #cfc4b5;
+  --color-block: #e9e1d6;
+
+  --font-serif: 'Newsreader Variable', Georgia, serif;
+  --font-sans: 'Hanken Grotesk Variable', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+  body {
+    @apply bg-paper font-sans text-[17px] leading-relaxed text-ink antialiased;
+  }
+  a {
+    @apply text-sage underline-offset-4 hover:text-sage-deep;
+  }
+  :focus-visible {
+    @apply rounded-md outline-2 outline-offset-4 outline-ink;
+  }
+  ::selection {
+    @apply bg-wing text-ink;
+  }
+}
+
+@utility eyebrow {
+  @apply text-sm font-semibold tracking-[0.08em] uppercase;
+}
+
+@utility wrap {
+  @apply mx-auto w-full max-w-[1080px] px-6;
+}
