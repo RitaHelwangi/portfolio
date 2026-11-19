@@ -41,6 +41,16 @@
   --color-line-strong: #cfc4b5;
   --color-block: #e9e1d6;
 
+  /* Status colours for the case study visuals */
+  --color-ok: #e2ecdc;
+  --color-ok-ink: #2f5130;
+  --color-fail: #f6e1dc;
+  --color-fail-ink: #9a3a2c;
+  --color-info: #dfe7ef;
+  --color-info-ink: #34506b;
+  --color-wait: #f3e7cf;
+  --color-wait-ink: #6e5016;
+
   --font-serif: 'Newsreader Variable', Georgia, serif;
   --font-sans: 'Hanken Grotesk Variable', system-ui, sans-serif;
 }
