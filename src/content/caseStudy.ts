@@ -10,6 +10,9 @@ export type Visual = 'overview' | 'journey' | 'publish' | 'status' | 'toSync' | 
 export const caseStudy = {
   kind: 'Case study · Maritime safety software',
   title: 'Did the checklist reach the ship?',
+  // Shown in search results for this page.
+  description:
+    'Case study: how office teams can see which ships have received a safety checklist, and what needs action. By Rita Helwangi, frontend developer.',
   intro: 'Office teams distribute safety checklists to their fleet, but had no reliable way to confirm that each one had reached the ship.',
   meta: [
     { label: 'Role', value: 'Frontend developer' },
