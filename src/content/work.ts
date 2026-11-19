@@ -12,13 +12,13 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: 'operations-center',
-    kind: 'Case study · Operations platform, maritime',
-    title: 'A powerful feature nobody used, turned into one that tells you what to do next',
+    kind: 'Case study · Maritime safety software',
+    title: 'Did the checklist reach the ship?',
     summary:
-      "An admin view had everything an operator could need, and that was the problem. I reshaped it around one question: what should this person act on first? An overview now leads with the next action, and the system reminds people of what's waiting.",
+      "Office teams distribute safety checklists to their fleet, with no reliable way to confirm delivery. I redesigned the experience so the system tracks every step and users only take the next action.",
     meta: [
-      { label: 'Role', value: 'Frontend, UX' },
-      { label: 'Stack', value: 'React, TypeScript' },
+      { label: 'Role', value: 'Frontend developer' },
+      { label: 'Stack', value: 'React, TypeScript, Python' },
       { label: 'Year', value: '2026' },
     ],
     href: '/work/operations-center',
