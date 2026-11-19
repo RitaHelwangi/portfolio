@@ -23,7 +23,7 @@ const visuals: Record<Visual, React.ComponentType> = {
 }
 
 export default function CaseStudy() {
-  usePageSetup('Did the checklist reach the ship? · Rita Helwangi')
+  usePageSetup('Did the checklist reach the ship? · Rita Helwangi', caseStudy.description)
   return (
     <Layout>
       <article className="wrap pt-10 pb-24">
