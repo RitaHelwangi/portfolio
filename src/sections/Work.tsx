@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 import { caseStudyReady } from '../content/caseStudy.ts'
-import { lighthouse, nowBuilding } from '../content/site.ts'
+import { lighthouse } from '../content/site.ts'
 import { projects } from '../content/work.ts'
 import OperationsDiagram from './OperationsDiagram.tsx'
 
@@ -76,9 +76,6 @@ export default function Work() {
           </article>
         )
       })}
-      <p className="border-t border-dashed border-line-strong py-7 text-base text-muted">
-        <span className="font-semibold text-sage">Right now:</span> {nowBuilding}
-      </p>
     </section>
   )
 }

@@ -1,9 +1,19 @@
+import { useEffect } from 'react'
 import ButtonLink from '../components/ButtonLink.tsx'
 import Layout from '../components/Layout.tsx'
 import { usePageSetup } from '../hooks/usePageSetup.ts'
 
 export default function NotFound() {
   usePageSetup('Not found · Rita Helwangi')
+
+  // Tell search engines not to index addresses that don't exist.
+  useEffect(() => {
+    const meta = document.createElement('meta')
+    meta.name = 'robots'
+    meta.content = 'noindex'
+    document.head.appendChild(meta)
+    return () => meta.remove()
+  }, [])
   return (
     <Layout>
       <section className="wrap py-30">
