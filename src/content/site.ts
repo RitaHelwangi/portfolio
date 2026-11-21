@@ -37,7 +37,7 @@ export const lighthouse: { performance: number | null; accessibility: number | n
 export const principle = 'A good platform tells people what to do next, instead of feeding them information.'
 
 export const about = {
-  lead: "Coming from design, I notice when something works technically but still makes someone's day harder, and I'd rather fix that early.",
+  lead: "I design what I build, so I notice when something works technically but still makes someone's day harder, and I'd rather fix that early.",
   body: [
     "I work in React and TypeScript, with Python/FastAPI and C#/.NET when the feature needs them. I started at Maranics as a frontend and product owner intern, so I know both sides: how software gets built, and how it's actually used.",
     "I'm passionate about AI and love combining it with creativity. But tools don't solve problems on their own. People do, when they're willing to. The best work happens when AI handles the chores and people do what they do best: think, decide and help each other.",
