@@ -16,14 +16,14 @@ export const hero = {
   thesisEmphasis: 'people',
   thesisEnd: 'using it.',
   intro:
-    "I start with curiosity. When something doesn't work, I dig until I find the real cause, then I make it simple. I came to code from UI design, and most recently owned the frontend of a new product for the maritime industry.",
+    "I start with curiosity. When something doesn't work, I dig until I find the real cause, then I make it simple. I design and build interfaces, and most recently owned the frontend of a new product for the maritime industry.",
 }
 
 // The "At a glance" card next to the headline. Keep each value short.
 export const glance = [
   { label: 'Open to', value: 'Frontend, full-stack and product roles' },
   { label: 'Builds with', value: 'React, TypeScript · Python, C#/.NET' },
-  { label: 'Right now', value: 'A tool that shows who is waiting on whom' },
+  { label: 'Right now', value: 'Designing a tool that shows who is waiting on whom' },
 ]
 
 // Lighthouse scores for the "This site" card. Measure after launch at pagespeed.web.dev,

@@ -96,7 +96,6 @@ export default function CaseStudy() {
           </h2>
           <div className="mt-6" />
           <WorkedOn />
-          <p className="mt-5 text-[14px] text-muted">Built with React and TypeScript, with Python on the backend.</p>
         </section>
       </article>
     </Layout>

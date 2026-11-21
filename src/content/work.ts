@@ -18,7 +18,7 @@ export const projects: Project[] = [
       "Office teams distribute safety checklists to their fleet, with no reliable way to confirm delivery. I redesigned the experience so the system tracks every step and users only take the next action.",
     meta: [
       { label: 'Role', value: 'Frontend developer' },
-      { label: 'Stack', value: 'React, TypeScript, Python' },
+      { label: 'Built with', value: 'React, TypeScript, Python' },
       { label: 'Year', value: '2026' },
     ],
     href: '/work/operations-center',
@@ -27,9 +27,9 @@ export const projects: Project[] = [
   {
     slug: 'this-site',
     kind: 'Open source · This site',
-    title: 'Built in the open, held to its own argument',
+    title: 'Built in the open',
     summary:
-      'Keyboard navigable, fast on a phone, real focus states, semantic HTML. If this site claims I care how software feels, the code has to prove it. Read every line.',
+      'Keyboard accessible, fast on phones, with clear focus states and semantic HTML. A site about how software feels should prove it in its own code.',
     href: 'https://github.com/RitaHelwangi/portfolio',
     linkLabel: 'View the code on GitHub',
     external: true,
