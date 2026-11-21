@@ -18,7 +18,7 @@ export function usePageSetup(title: string, description?: string) {
     const meta = document.querySelector<HTMLMetaElement>('meta[name="description"]')
     if (meta) meta.content = description ?? DEFAULT_DESCRIPTION
     const canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]')
-    if (canonical) canonical.href = SITE + pathname
+    if (canonical) canonical.href = SITE + (pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname)
   }, [title, description, pathname])
 
   useEffect(() => {
