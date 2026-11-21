@@ -1,0 +1,7 @@
+# Keep line endings the same on Windows, Mac and Linux,
+# so git only shows real changes.
+* text=auto eol=lf
+
+*.png binary
+*.webp binary
+*.woff2 binary
